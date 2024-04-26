@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.55.0",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "axios": "^1.6.7",
+    "express": "^4.18.2"
   }
 }
