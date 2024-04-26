@@ -172,6 +172,7 @@ bot.onText(/\/forward/, async (msg) => {
             return;
           }
 
+		bot.sendMessage(sourceChatId, 'Forwarded messages to the destination chat');
           forwardMessagesInRange(chatId, sourceChatId, destinationChatId, startMessageId, endMessageId)
             .then(() => {
               bot.sendMessage(chatId, 'Forwarded messages to the destination chat');
